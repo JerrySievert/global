@@ -17,6 +17,16 @@ File2.js:
     
     console.log(global.foo); // should be 'bar'
 
+# Not Using
+
+File1.js:
+
+    global.foo = 'bar';
+
+File2.js:
+
+    console.log(global.foo); // should be 'bar'
+
 # Installing
 
     npm install global
