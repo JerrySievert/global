@@ -1,0 +1,19 @@
+{
+  "author": "Jerry Sievert <code@legitimatesounding.com> (http://legitimatesounding.com/blog/)",
+  "name": "global",
+  "description": "Implementation of Global Pattern for Node.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/JerrySievert/global",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/JerrySievert/global.git"
+  },
+  "main": "global.js",
+  "engines": {
+    "node": "~0.4.7"
+  },
+  "dependencies": {},
+  "devDependencies": {
+      "vows": "~0.5.0"
+  }
+}
