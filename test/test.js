@@ -1,15 +1,15 @@
 var vows      = require('vows'),
     assert    = require('assert'),
-    global    = require('../lib/global');
+    globe     = require('../lib/global');
 
 vows.describe('Global Works').addBatch({
     'locally': {
         topic: function () {
-            global.foo = 'bar';
-            return global.foo;
+            globe.foo = 'bar';
+            return globe.foo;
         },
         'foo is set correctly': function (topic) {
-            assert.equal(global.foo, 'bar');
+            assert.equal(globe.foo, 'bar');
         }
     },
     'remotely': {
@@ -19,7 +19,7 @@ vows.describe('Global Works').addBatch({
             return other;
         },
         'bar is set correctly': function (topic) {
-            assert.equal(topic.get('bar'), global.bar);
+            assert.equal(topic.get('bar'), globe.bar);
         }
     }
 }).export(module);

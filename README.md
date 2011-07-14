@@ -7,15 +7,15 @@
 
 File1.js:
 
-    var global = require('global');
+    var globe = require('global');
     
-    global.foo = 'bar';
+    globe.foo = 'bar';
 
 File2.js:
 
-    var global = require('global');
+    var globe = require('global');
     
-    console.log(global.foo); // should be 'bar'
+    console.log(globe.foo); // should be 'bar'
 
 # Installing
 
