@@ -8,7 +8,7 @@
     "type": "git",
     "url": "git://github.com/JerrySievert/global.git"
   },
-  "main": "global.js",
+  "main": "lib/global.js",
   "engines": {
     "node": "~0.4.7"
   },

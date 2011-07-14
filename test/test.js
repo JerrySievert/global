@@ -1,6 +1,6 @@
 var vows      = require('vows'),
     assert    = require('assert'),
-    global    = require('../global');
+    global    = require('../lib/global');
 
 vows.describe('Global Works').addBatch({
     'locally': {
