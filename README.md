@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/JerrySievert/global.png)](http://travis-ci.org/JerrySievert/global)
 ## Global -- Implementation of the Global Pattern for Node.js
 
 * Works
